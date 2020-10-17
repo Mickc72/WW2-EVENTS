@@ -1,0 +1,472 @@
+.ptext	/*Creation of the Polaroid text on the index title page*/
+	{
+	background-color: #535f0d;
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 8px 28px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-weight: 700;
+	}
+
+.polaroid/*Creation of the Polaroid images on the index title page*/
+	{
+	font-size: 14px;
+	font-family: Merriweather Light;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: 22px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: auto;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	background-color: white;
+	}
+
+.text	/*Opening text block in title page*/
+	{
+	color: black;
+	background-color: white;
+	margin-top: 25px;
+	margin-right: 75px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	font-family: Merriweather Light;
+	font-size: 14px;
+	text-align: center;
+	text-align: justify;
+	line-height: 150%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+img	/*adjusts sizes if images on all pages except title page*/
+	{
+	margin-right: 0px;
+	max-width: 650px;
+	}
+
+.logo	/*positions WW2 logo top left*/
+	{
+	position: absolute;
+  	top: -10px;
+ 	left: 200px;
+	}
+
+#topcontent/*positions and creates title*/
+	{
+	font-family: Arial;
+	text-transform: uppercase;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	text-align: center;
+	background-color: black;
+	}
+
+.sticky	/*holds the nav bar in sight when scrolling*/
+	{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  	transition: 0.4s;
+	}
+
+h1	/*colour, size and position of h1 text*/
+	{
+	color: white;
+	margin: 10px;
+	font-size: 40px;
+	}
+
+body	/*colour, size and position of body text on pages after title page*/
+	{
+	width: 1200px;
+	margin: auto;
+	background-size: 1200px 3200px;
+	background-image: url(../images/bkg.jpg);
+	background-margin: auto;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+	}
+
+.navbar	/*Main Navbar*/
+	{
+	font-family: Merriweather Light;
+	overflow: hidden;
+	background-color: #535f0d;
+	}
+
+.navbar a/*Navbar position*/
+	{
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  	position: -webkit-sticky;
+  	position: sticky;
+	}
+
+.survey/*Navbar position*/
+	{
+	float: right;
+	margin-right: 64px;
+	}
+
+.contacts/*Navbar position*/
+	{
+	float: right;
+	margin-right: 0px;
+	}
+
+.memorabilia/*Navbar position*/
+	{
+	float: right;
+	margin-right: 0px;
+	}
+
+.homenavbar/*Navbar position*/
+	{
+	margin-left: 74px;
+	}
+
+.dropdown/*Navbar dropdown*/
+	{
+	float: left;
+  	overflow: hidden;
+	}
+
+.dropdown .dropbtn/*Navbar dropdown*/
+	{
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: snow;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	}
+
+.navbar a:hover, .dropdown:hover .dropbtn/*Navbar hover over colour*/
+	{
+ 	 background-color: #b3bc79;
+	}
+
+.dropdown-content/*Navbar dropdown content colour, dropshadow etc.*/
+	{
+	font-family: Merriweather Light;
+	display: none;
+	position: absolute;
+	background-color:#aaaaaa;
+	min-width: 160px;
+	box-shadow: 5px 10px 18px grey;
+	z-index: 1;
+	}
+
+.dropdown-content a/*Navbar dropdown content vertical */
+	{
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	}
+
+.dropdown:hover .dropdown-content/*Navbar dropdown content visable */
+	{
+  	display: block;
+	}
+
+.contenttext/*Pages following index text positioning and format */
+	{
+	color: black;
+	width: 950px;
+	padding-top: 8px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-family: Merriweather Light;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
+	}
+	
+#mainbody/*Pages following index background */
+	{
+	background-color: white;
+	margin-top: 25px;
+	margin-right: 75px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	}
+	
+#image	/*Pages following index positioning*/
+	{
+	float: right;
+	margin-top: 25px;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	}
+	
+footer	/*footer text format*/
+	{
+	text-align: center;
+	font-family: Merriweather Light;
+	font-size: 14px;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+	}
+
+
+.contacttext/*format contact page text*/
+	{
+	font-family: Arial;
+	width: 700px;
+	height: 1250px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
+	background-color: white;
+	margin-top: 25px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 220px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.memorabiliatext/*format memorabilia page text*/
+	{
+	font-family: Arial;
+	width: 700px;
+	height: 1450px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
+	background-color: white;
+	margin-top: 25px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 220px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a	/*links formatted no underline*/
+	{
+	text-decoration: none;
+	color: #535f0d;
+	}
+
+a:hover	/*links coloured black when hovered over*/
+	{
+  	color: black;
+	}
+
+
+.sitemap
+	{
+	text-decoration: none;
+	color: #535f0d;
+	}
+
+.sitemap /*second site map on contact page*/
+	{
+	color: black;
+	width: 300px;
+	background-color: white;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 220px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	font-family: Merriweather Light;
+	font-size: 14px;
+	text-align: center;
+	text-align: justify;
+	line-height: 150%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+mark 	{ 
+  	background-color: #aaaaaa;
+  	color: white;
+	}
+	
+
+form
+	{
+	font-family: Merriweather Light;
+	margin: 0 auto;
+	width:900px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	}
+
+fieldset
+	{
+	width; 200px;
+	background-color: #aaaaaa;
+	border-radius: 10px;
+	border-color: #535f0d;
+	}
+
+#fieldset1
+	{
+	width; 200px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+#fieldset2
+	{
+	width; 200px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+#fieldset3
+	{
+	width; 200px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+#fieldset4
+	{
+	width; 200px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+#fieldset5
+	{
+	width; 200px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+#fieldset6
+	{
+	width; 200px;
+	background-color: #aaaaaa;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	}
+
+h3
+	{
+	font-family: Merriweather Light;
+	font-size: 14px;
+	}
+	
+
+label
+	{
+	font-family: Merriweather Light;
+	display: block;
+	text-align: right;
+	width: 250px;
+	padding-right: 1em;
+	float: left;
+	font-family: Merriweather Light
+	}
+
+input
+	{
+	font-family: Merriweather Light
+	display: block;
+	float: left;
+	margin-bottom: 1em;
+	}
+
+br
+	{
+	clear: left;
+	}
+
+
+#submit,
+#reset
+	{
+	width:200px;
+	height:30px;
+	}
+
+legend
+	{
+	background-color: #535f0d;
+	border-radius: 10px;
+	font-size: 1em;
+	border-color: #535f0d;
+	color: white;
+	padding: 5px 13px;
+	}
+
+.box
+	{
+	float: left;
+	width: 200px;
+	text-align: right;
+	}
+
+#row2
+	{
+	border: solid transparent;
+	margin-left:230px;
+	}
+
+#submit
+	{
+	margin-left: 300px;
+	}
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

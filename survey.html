@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset=utf-8>
+
+	<title>Survey</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"><!--this links the CSS file.-->
+
+	</head>
+
+		<body>
+
+
+		<div id="#top">
+
+		<div class="logo">
+			<img src="images/logo2.png" alt="WW2 logo" width="160"><!--this adds WW2 logo image.-->
+		</div>
+
+		<div id="topcontent">
+			<h1> Survey</h1><!--this adds page title-->
+		</div>
+
+		<div class="sticky"><!--this holds the nav bar when scrolled-->
+					<div class="navbar">
+						<div class="homenavbar">
+							<a href="index.html">Home</a>
+						</div><!--end of homenavbar-->
+							<div class="dropdown"><!--Features multiple dropdown menus-->
+								<button class="dropbtn"> 1939
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="blitzkrieg.html">Blitzkrieg</a>
+											</div><!--ends div class dropdown-content-->
+							</div><!--ends div class dropdown-->
+
+							<div class="dropdown">
+								<button class="dropbtn"> 1940
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="britian.html">Battle of Britian</a>
+											</div>
+							</div><!--ends div class dropdown-->
+
+
+							<div class="dropdown">
+								<button class="dropbtn"> 1941
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="pearlharbour.html">Pearl Harbour</a>
+											</div>
+							</div><!--ends div class dropdown-->
+
+							<div class="dropdown">
+								<button class="dropbtn"> 1942
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="midway.html">Battle of Midway</a>
+												<a href="stalingrad.html">Seige of Stalingrad</a>
+											</div>
+							</div><!--ends div class dropdown-->
+
+							<div class="dropdown">
+								<button class="dropbtn"> 1944
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="dday.html">D'day Landings</a>
+												<a href="bulge.html">Battle of the Bulge</a>
+											</div>
+							</div><!--ends div class dropdown-->
+
+							<div class="dropdown">
+								<button class="dropbtn"> 1945
+									<i class="fa fa-caret-down"></i>
+										</button>
+											<div class="dropdown-content">
+												<a href="dresden.html">Dresden Firestorm</a>
+												<a href="buchenwald.html">Liberation of Buchenwald</a>
+												<a href="hiroshima.html">Hiroshima</a>
+											</div>
+							</div><!--ends div class dropdown-->
+
+
+							<div class="survey">
+							<a href="survey.html">Survey</a>
+							</div>
+
+							<div class="contacts">
+							<a href="contacts.html">Contacts</a>
+							</div>
+
+							<div class="memorabilia">
+							<a href="memorabilia.html">Memorabilia</a>
+							</div>
+
+
+
+
+						</div><!--ends div class navbar-->
+
+				</div><!--ends div class sticky-->
+
+
+			<form>
+
+				<p>If you have a moment, we'd appreaciate it if you would fill out this survey.</p>
+
+
+
+			<fieldset id = "fieldset1">
+				<legend>Your information:</legend>
+
+				<label for = "First Name" > First name</label>
+				<input type="text" name="First name"  placeholder="Enter First Name" required>
+
+				<label for = "Last Name" > Last name</label>
+				<input type="text" name="Last name"  placeholder="Enter Last Name" required>
+
+				<label for = "Email Address" > Email </label>
+				<input type="text" name="Email Address"  placeholder="Enter Email Address"
+				autofocus>
+
+				<label for = "Password" > Password</label>
+				<input type="text" name="Password"  placeholder="Enter Password" required>
+
+				<label for = "Phone" > Phone</label>
+				<input type="text" name="Phone"  placeholder="Enter Phone Number"
+				pattern = "[\+]\d{3}[\-]\d{2}[\-]\d{7}" title = "Please match the requester format: +353-87-224555" required>
+
+			</fieldset>
+
+
+			<fieldset id = "fieldset2">
+				<legend>Special Offers</legend>
+				<h3>Would you like to recieve announcements about new CD's and special offers?</h3>
+
+				<input type="checkbox" name="Yes!"checked>YES, I'd like to recieve information on new CD's and special offers.
+
+			</fieldset>
+
+
+			<fieldset id = "fieldset3">
+
+				<legend>Contact</legend>
+				<p>Please contact me be by:</p>
+
+				<span class ="box">Email</span>
+				<input type=checkbox name"email" id= email>
+
+				<span class ="box">Postal</span>
+				<input type=checkbox name"postal" id= email>
+
+				<span class ="box">Phone</span>
+				<input type=checkbox name"phone" id= email><br>
+
+				<span class ="box">Facebook</span>
+				<input type=checkbox name"facebook" id= email>
+
+				<span class ="box">Twitter</span>
+				<input type=checkbox name"twitter" id= email>
+
+				<span class ="box">Linkedin</span>
+				<input type=checkbox name"linkedin" id= email>
+
+			</fieldset>
+
+
+
+			<fieldset id = "fieldset4">
+					<legend>How did you hear about us?</legend>
+
+					<input type="radio" name="info"> Search engine<br>
+					<input type="radio" name="info"> Word of mouth<br>
+					<input type="radio" name="info" checked> Other
+			</fieldset>
+
+
+			<fieldset id = "fieldset5">
+
+					<legend>Pleased rate this form using the slider</legend>
+
+					<input type="range" name="range1" min ="1" max = "5" step = "1" required>
+
+			</fieldset>
+
+
+			<fieldset id = "fieldset6">
+
+					<legend>Comments</legend>
+					<textarea rows="3" cols="60" name="comments"></textarea>
+
+
+			<div id = "submit"
+
+					<p><p><input type="submit"><input type="reset"></p>
+
+			</div>
+
+			</fieldset>
+
+
+
+	</form>
+
+
+
+	</body>
+
+</html>
+
+</html>
+
+
+
+
